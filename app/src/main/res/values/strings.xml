@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mp3widget</string>
+    <string name="add_widget">Add widget</string>
+    <string name="please_add_the_widget_to_your_home_screen">Please add the widget to your home screen</string>
+    <string name="elapsed_time">elapsed</string>
+    <string name="_0">0</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="artists">artists</string>
+    <string name="album">album</string>
+    <string name="title">title</string>
+    <string name="playing_now">Playing Now</string>
+</resources>

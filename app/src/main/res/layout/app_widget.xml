@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin"
+                android:background="#09C">
+
+    <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/elapsed_time"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:background="#09C" android:layout_alignParentStart="true" android:layout_marginStart="69dp"/>
+
+    <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/_0"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:background="#09C"
+            android:layout_toEndOf="@+id/header"
+            android:layout_marginStart="45dp"
+    />
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:background="#09C"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/header"/>
+    <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:background="#09C"
+            android:layout_toEndOf="@+id/header"
+            android:layout_marginStart="45dp"
+            android:layout_alignTop="@+id/title"/>
+    <TextView
+            android:id="@+id/album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:background="#09C"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/title"/>
+    <TextView
+            android:id="@+id/album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:background="#09C"
+            android:layout_toEndOf="@+id/header"
+            android:layout_marginStart="46dp"
+            android:layout_alignTop="@+id/album"/>
+
+    <TextView
+            android:id="@+id/artists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artists"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:background="#09C"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/album"/>
+    <TextView
+            android:id="@+id/artists_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+
+            android:background="#09C"
+            android:layout_toEndOf="@+id/header"
+            android:layout_marginStart="45dp"
+            android:layout_alignTop="@+id/artists"/>
+
+
+
+    <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true" android:layout_marginStart="16dp"/>
+    <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="16dp" android:layout_alignTop="@+id/play"/>
+</RelativeLayout>
